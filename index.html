@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    .item1 {
+      grid-area: header;
+      background: hsla(217, 100%, 50%, 1);
+
+      background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+      background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+      background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+      filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1);
+    }
+
+    .item2 {
+      grid-area: menu;
+    }
+
+    .item3 {
+      grid-area: main;
+    }
+
+    .item4 {
+      grid-area: right;
+    }
+
+    .item5 {
+      grid-area: footer;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+      grid-gap: 10px;
+      background-color: lightgrey;
+      padding: 10px;
+
+    }
+
+    .grid-container>div {
+      border-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+
+    }
+  </style>
+
+
+  <title>Home</title>
+
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+ <script>(function(w, d) { w.CollectId = "5ff218ab2558920eb9819596"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> 
+  <!-- Compiled and minified JavaScript -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Import Google Icon Font-->
+
+  <link rel="stylesheet" href="materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+</head>
+<body style="z-index:-1; position: relative;;">
+  <div>
+  <div id="dani">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed">
+      <a class="navbar-brand" href="index.html"><img src="" alt=""></a>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+  <div>
+    <div class="jumbotron jumbotron-fluid animate__animated animate__fadeInRight" class="">
+      <div class="about">
+        <h1><span>Shivansh</span> Gupta</h1>
+        <h2><span>Coder</span>|<span>Nerd</span>|<span>Multilingual</span></h2>
+
+        <div class="typewriter">
+          <h1>Don't run after happiness; let happiness run after you;
+          </h1>
+        </div>
+
+<button id="1" class="abc"  ><span > Explore Me </span></button>
+      </div>
+      <div class="photo">
+        <img src="assets/Profile Picture.png" alt="Profile Picture">
+      </div>
+    </div>
+  </div>
+  </div>
+ </div>
+
+  <div id="2" class="" style="display: none; z-index: 1;">
+    <div>
+      <a href="index.html"><div class="nam animate__animated animate__slideInRight" style="transform:translateX(100px);">Home</div></a>
+      <a href="project.html"><div class="nam animate__animated animate__slideInLeft" style="transform:translateX(-10%)">Projects</div></a>
+      <a href="about.html"><div class="nam animate__animated animate__slideInRight" style="transform:translateX(10%)">About</div></a>
+      <a href="contact.html"><div class="nam animate__animated animate__slideInLeft" >Contact</div></a>
+    </div>
+
+</div>
+
+  <div class="skills" style="margin-top: 100px;">
+    <div class="row" style="margin-bottom:100px;">
+      <div data-aos="fade-right"
+      data-aos-offset="400"
+      data-aos-easing="ease-in-sine"  
+      data-aos-duration="500"class="col-sm-6" style="background-color: #f0db4f; color: #323330; margin-bottom: 12.5px;"><div class="JS">JavaScript</div></div>
+      <div data-aos="fade-down"
+
+      data-aos-easing="linear"
+      data-aos-duration="1500" class="col-sm-2" style='background: hsla(12, 77%, 52%, 1);
+
+      background: linear-gradient(90deg, hsla(12, 77%, 52%, 1) 0%, hsla(18, 87%, 55%, 1) 100%);
+      
+      background: -moz-linear-gradient(90deg, hsla(12, 77%, 52%, 1) 0%, hsla(18, 87%, 55%, 1) 100%);
+      
+      background: -webkit-linear-gradient(90deg, hsla(12, 77%, 52%, 1) 0%, hsla(18, 87%, 55%, 1) 100%);
+      
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E34C26", endColorstr="#F06529", GradientType=1 ); color: #ffffff;' ><div class="JS">HTML</div></div>
+      <div  data-aos="fade-left"
+     
+      data-aos-offset="500"
+      data-aos-duration="500" class="col-sm-4" style='background: hsla(228, 78%, 52%, 1);
+
+      background: linear-gradient(90deg, hsla(228, 78%, 52%, 1) 0%, hsla(222, 88%, 55%, 1) 100%);
+      
+      background: -moz-linear-gradient(90deg, hsla(228, 78%, 52%, 1) 0%, hsla(222, 88%, 55%, 1) 100%);
+      
+      background: -webkit-linear-gradient(90deg, hsla(228, 78%, 52%, 1) 0%, hsla(222, 88%, 55%, 1) 100%);
+      
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#264DE4", endColorstr="#2965F1", GradientType=1 ); color:#ffffff;'><div class="JS">CSS</div></div>
+    </div>
+    
+    <div class="row" >
+      <div class="col-sm-2-invisible"></div>
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" class="col-sm-4" style='margin-bottom: 12.5px; background: hsla(207, 47%, 52%, 1);
+
+      background: linear-gradient(90deg, hsla(207, 47%, 52%, 1) 0%, hsla(47, 100%, 62%, 1) 100%);
+      
+      background: -moz-linear-gradient(90deg, hsla(207, 47%, 52%, 1) 0%, hsla(47, 100%, 62%, 1) 100%);
+      
+      background: -webkit-linear-gradient(90deg, hsla(207, 47%, 52%, 1) 0%, hsla(47, 100%, 62%, 1) 100%);
+      
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4B8BBE", endColorstr="#FFD43B", GradientType=1 ); color:#646464;'><div class="JS">Python</div></div>
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000" class="col-sm-4" style='background: hsla(118, 40%, 38%, 1);
+
+      background: linear-gradient(90deg, hsla(118, 40%, 38%, 1) 0%, hsla(115, 24%, 51%, 1) 100%);
+      
+      background: -moz-linear-gradient(90deg, hsla(118, 40%, 38%, 1) 0%, hsla(115, 24%, 51%, 1) 100%);
+      
+      background: -webkit-linear-gradient(90deg, hsla(118, 40%, 38%, 1) 0%, hsla(115, 24%, 51%, 1) 100%);
+      
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3C873A", endColorstr="#68A063", GradientType=1 ); color:#303030;'><div class="JS">NOdejs</div></div>
+       <div  data-aos="fade-zoom-in"
+       data-aos-easing="ease-in-back"
+       data-aos-delay="300"
+       data-aos-offset="0" class="col-sm-4" style="margin-bottom: 12.5px; background-color: #563d7c; color: white;"><div class="JS">Bootstrap</div></div>
+       <div data-aos="zoom-out-left"  data-aos-delay="300" class="col-sm-2" style="background-color: lightblue; text-align: center;">AI</div>
+       <div data-aos="zoom-in-up" data-aos-delay="500" class="col-sm-4" style="background-color: #EE6E73; color:#ffffff; text-align: center;">Materialize</div>
+
+    
+  </div>
+  <div    class="row">
+    <div class="col-sm-2" style="margin-bottom: 12.5px; background-color:white; border:none; color:#ffffff; text-align: center;"></div>
+    <div data-aos="fade-down-right"  data-aos-delay="300"  class="col-sm-4" style='margin-bottom: 12.5px; text-align: center;background: hsla(112, 49%, 47%, 1);
+
+    background: linear-gradient(90deg, hsla(112, 49%, 47%, 1) 0%, hsla(115, 49%, 42%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(112, 49%, 47%, 1) 0%, hsla(115, 49%, 42%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(112, 49%, 47%, 1) 0%, hsla(115, 49%, 42%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4DB33D", endColorstr="#3FA037", GradientType=1 ); color:#E8E7D5;'>MongoDB</div>
+      <div data-aos="fade-down-left"  data-aos-delay="300"  class="col-sm-2" style='margin-bottom: 12.5px; text-align: center;background-color: #61DBFB; color:black;'>React JS</div>
+    <div data-aos="flip-up" data-aos-delay="500"  class="col-sm-4" style="background-color: #29BEB0; color:black; text-align: center;">Go Lang</div>
+   
+    </div>
+<div class="row">
+  <div class="col-sm-1" style="margin-bottom: 12.5px; border:none; background-color: white;"></div>
+  <div    class="col-sm-4" style="background-color: #F9AB00; color: black; text-align: center;">Colaboratory</div>
+   <div class="col-sm-2" style="background-color: #3EB049; color: black; text-align: center;">Anaconda</div>
+   <div class="col-sm-4" style='background: hsla(16, 49%, 47%, 1);
+
+   background: linear-gradient(90deg, hsla(16, 49%, 47%, 1) 0%, hsla(14, 56%, 41%, 1) 100%);
+   
+   background: -moz-linear-gradient(90deg, hsla(16, 49%, 47%, 1) 0%, hsla(14, 56%, 41%, 1) 100%);
+   
+   background: -webkit-linear-gradient(90deg, hsla(16, 49%, 47%, 1) 0%, hsla(14, 56%, 41%, 1) 100%);
+   
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B45C3D", endColorstr="#A3492E", GradientType=1 ); color: #D9CDB7; text-align: center;'>Jupiter</div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+   
+  <div class="m20_0">
+    <!-- Element Showed -->
+    <div class="fixed-action-btn waves-orange
+      " style="bottom: 20px; left:-10px; ">
+      <a id="menu" onclick="$('.tap-target').tapTarget('open')" class="btn btn-floating btn-large waves-orange
+            "><i class="material-icons">menu</i></a>
+    </div>
+
+    <!-- Start Tap Target Structure -->
+    <div style="background-color: #00ff87;" class="tap-target " data-activates="menu">
+      <div class="tap-target-content white-text">
+        <h5 style="">Shivansh Gupta</h5>
+        <p style="">This website is made by a 12 year old kid (me)! 
+        Coding always has an improvement for more, and that drives the innovation in me to able to be to code again. 
+          I follow my own mantra "Code, Debug and Repeat)".
+      Science and Maths are my favourite subjects, coding is far ahead in the race!
+      </p>
+      </div>
+    </div>
+    <!-- End Tap Target Structure -->
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+
+    AOS.init();
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+      var elems = document.querySelectorAll('.fixed-action-btn');
+
+
+      var instances = M.FloatingActionButton.init(elems, {
+
+        direction: 'left'
+      });
+
+    });
+   let buton = document.getElementById("1")
+   let modal = document.getElementById("2")
+   buton.addEventListener("click",()=>{
+        modal.classList.add("mod")
+        modal.style.display = "block"
+   })
+   window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}}
+
+filter("all")
+function filter(a){
+  console.log("working")
+  let x,i;
+  x=document.getElementsByClassName("css");
+  if (a=="all"){ 
+      a=""
+
+  }
+  for(i=0;i<x.length;i++){
+      removeClass(x[i],"show");
+      if(x[i].className.indexOf(a)>-1)
+      {
+          addClass(x[i],"show")
+  }
+  }
+}
+function addClass(element,name){
+  let i,arr1,arr2;
+  arr1=element.className.split(" ");
+  arr2=name.split(" ");
+  for(i=0;i<arr2.length;i++){
+      if(arr1.indexOf(arr2[i])==-1){
+          element.className+=" "+arr2[i];
+      }
+  }
+  element.className=arr1.join(" ")
+}
+function removeClass(element,name){
+  let i,arr1,arr2;
+  arr1=element.className.split(" ");
+  arr2=name.split(" ");
+  for(i=0;i<arr2.length;i++){
+      while(arr1.indexOf(arr2[i])>-1){
+          arr1.splice(arr1.indexOf(arr2[i]),1);
+      }
+  }
+  element.className=arr1.join(" ")
+}
+  </script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    $('#sign-in').click(function () {
+      $('#sign-in').addClass('scale-out');
+      $('#sign-up').addClass('scale-out');
+      $('.row').removeClass('scale-out').addClass('scale-in');
+    })
+  </script>
+  
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize.js"></script>
+  <script src="init.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!--Import materialize.js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  
+  </body>
+</html>

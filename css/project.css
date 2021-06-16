@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.show{
+    display: block !important;
+}
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 16px;
+    margin-bottom:10px;
+    margin: 5px;
+    font-size: 20px;
+
+}
+.btn:hover{
+    background: coral;
+}
+.box{
+    
+   
+width: 250px;
+height: 200px;
+   
+    margin-right: 20px;
+
+    display: none;
+}
+
+
+

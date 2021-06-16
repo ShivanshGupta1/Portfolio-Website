@@ -1,0 +1,140 @@
+body {
+    background-color: hsl(17, 77%, 51%);;
+}
+.overlay[_ngcontent-c12] {
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: -100%;
+    position: fixed;
+    background: #2c3e50;
+    -webkit-transform: scale(2) skew(-10deg);
+    transform: scale(2) skew(-10deg);
+    z-index: -1;
+    transition: .3s all ease-in-out;} 
+   
+
+
+  .skills{
+    letter-spacing: 2px;
+    
+    font-size: 3.2rem;
+    font-family: 'Cormorant Garamond',serif;
+  
+    color: white;
+  margin-left: 980px;
+  }
+  .header{
+    font-family: 'Cormorant Garamond',serif;
+    letter-spacing: 2px;
+    color: white;
+  text-align: center;
+  }
+  .line{
+      background-color: white;
+      height: 2px;
+      width: 300px;
+      margin-left: 575px;
+      
+  }
+
+  .tech{
+    font-family: 'Cormorant Garamond',serif;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+    top: -20px;
+    position: relative;
+  }
+  .col-sm-6{
+    white-space: nowrap;
+    font-family: Montserrat;
+    font-weight: 600;
+    overflow: hidden;
+    text-transform: uppercase;
+    background-color: #dffff9;
+    text-overflow: ellipsis;
+    padding: 25px 10px 3px 12px;
+    border: 1.3px solid #9eecdd;
+    border-radius: 4px;
+    color: #1eb397;
+    font-size: 30px;
+    letter-spacing: 2.8px;
+    line-height: 1.84;
+    height: 120px;
+        width: 479.5px;
+
+   
+}
+.col-sm-4{
+    white-space: nowrap;
+    font-family: Montserrat;
+    font-weight: 600;
+    overflow: hidden;
+    text-transform: uppercase;
+    background-color: #dffff9;
+    text-overflow: ellipsis;
+    padding: 25px 10px 3px 12px;
+    border: 1.3px solid #9eecdd;
+    border-radius: 4px;
+    color: #1eb397;
+    font-size: 30px;
+    letter-spacing: 2.8px;
+    line-height: 1.84;
+    height: 120px;
+    width: 479.5px;
+   
+}
+.col-sm-2{
+    white-space: nowrap;
+    font-family: Montserrat;
+    font-weight: 600;
+    overflow: hidden;
+
+    background-color: #dffff9;
+    text-overflow: ellipsis;
+    padding: 25px 10px 3px 12px;
+    border: 1.3px solid #9eecdd;
+    border-radius: 4px;
+    color: #1eb397;
+    font-size: 30px;
+    letter-spacing: 2.8px;
+    line-height: 1.84;
+    height: 120px;
+    width: 479.5px;
+   
+   
+}
+.col-sm-3{
+    white-space: nowrap;
+    font-family: Montserrat;
+    font-weight: 600;
+    overflow: hidden;
+    text-transform: uppercase;
+    background-color: #dffff9;
+    text-overflow: ellipsis;
+    padding: 25px 10px 3px 12px;
+    border: 1.3px solid #9eecdd;
+    border-radius: 4px;
+    color: #1eb397;
+    font-size: 30px;
+    letter-spacing: 2.8px;
+    line-height: 1.84;
+    height: 120px;
+    width: 479.5px;
+   
+}
+
+img{
+    width: 70px;
+    height:70px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.gmailImage{
+    margin-left: 75px;
+    top: -15px;
+    position: relative;
+}

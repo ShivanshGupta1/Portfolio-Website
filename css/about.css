@@ -1,0 +1,128 @@
+
+
+
+body {
+    background-color: hsl(17, 77%, 51%);;
+}
+  .flip-box-inner {
+    position: relative;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+   
+  
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .flip-box-front, .flip-box-back {
+  
+  
+    position: absolute;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .flip-box-back {
+    background-color: #e74c3c;
+    color: white;
+    transform: rotateY(180deg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    border: .8rem solid hsl(17, 77%, 51%);
+  }
+  .text-container{
+    height: auto;
+    max-width: 32rem;
+    background: #17a598;
+    padding: 5.8rem 1.8rem 3rem;
+    border-radius: 2rem;
+    min-width: 34rem;
+    margin-left: 100px;
+    margin-top: -700px;
+    z-index: -1; 
+    animation: rollIn;
+    animation-duration: 3s;
+  }
+
+  a:link{
+      color: red;
+  }
+  .skills{
+  
+    
+
+    letter-spacing: 2px;
+    
+    font-size: 3.2rem;
+    font-family: 'Cormorant Garamond',serif;
+  
+    color: white;
+  margin-left: 980px;
+  }
+  .header{
+    font-family: 'Cormorant Garamond',serif;
+    letter-spacing: 2px;
+    color: white;
+  margin-left: 985px;
+  }
+  .line{
+      background-color: white;
+      height: 2px;
+      width: 300px;
+      margin-left: 985px;
+      
+  }
+
+  .tech{
+    font-family: 'Cormorant Garamond',serif;
+    letter-spacing: 2px;
+    color: white;
+    margin-left: 1000px;
+  }
+
+
+  @media(max-width:500px){
+    body{
+      color: white;
+      overflow-x: hidden;
+    }
+    .skill-shivansh{
+      display: none;
+    }
+    .skills{
+      display:none;
+    }
+    .text-container{
+      width:100%;
+
+      min-width: 0rem;
+      margin: 0;
+    }
+    img{
+      width:100px !important;
+    }
+    .flip-box-front{
+      background: none;
+    }
+  }
